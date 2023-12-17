@@ -26,5 +26,5 @@ public class CoursService {
 	public void supprimerCours(Integer id) {
 	coursRepository.deleteById(id);
 	}
-
+// les modifications de kenza 
 }
