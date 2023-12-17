@@ -42,6 +42,12 @@ public class CoursController {
 	public void supprimerCours(@PathVariable Integer id) {
 	coursService.supprimerCours(id);
 	}
+//changement de oumaima
+	@RequestMapping(method=RequestMethod.DELETE, value="/modules/{moduleId}/cour/{id}")
+	//pour supprimer un Cours donné d’un Module donné
+	public void supprimerCour(@PathVariable Integer id) {
+	coursService.supprimerCours(id);
+	}
 
 	//this is a modification
 
