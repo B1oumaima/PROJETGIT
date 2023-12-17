@@ -43,5 +43,7 @@ public class CoursController {
 	coursService.supprimerCours(id);
 	}
 
+	//this is a modification
+
 
 }
